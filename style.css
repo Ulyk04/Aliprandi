@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Meie+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* , html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+}
+
+.fira-code {
+  font-family: "Fira Code", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.roboto{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.meie-script-regular {
+    font-family: "Meie Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* sectionn - 1 */
+
+.section-1{
+    background: url(./images/greenparfum.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position:0dvh -60vh;
+}
+.title-1{
+    font-family: "Fira Code" , serif;
+    padding: 5% 10%;
+    color: #fbf7ba;
+    font-size: 25px;
+}
+.big-title-1{
+    display: flex;
+    justify-content: center;
+    color: #fbf7ba;
+    font-size: 100px;
+    margin-top: 10%;
+}
+.big-title-1 h1{
+    font-family: "Roboto" , serif;
+}
+.big-title-1 h3{
+    font-family: "Meie Script" , serif;
+}
+.btn-1 button{
+    width: 250px;
+    height: 60px;
+    font-family: "Fira Code" , serif;
+    background-color: #1b0a02;
+    color: #fbf7ba;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.btn-1{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5% 10%;
+}
+/* section - 2 */
+
+.section-2{
+    background-color: #dcd5cf;
+}
+.image-2 img:nth-child(1){
+    width: 25%;
+    height: 60%;
+    object-fit: cover;
+    margin-top: -7%;
+}
+.image-2 img:nth-child(2){
+    margin-top: -18%;
+    width: auto;
+    height: 100%;
+}
+.image-2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 0 5%;
+    margin-top: -25%;
+}
+.title-2 h1{
+    font-family: "Roboto" , serif;
+    font-size: 80px;
+}
+.title-2 p{
+    font-family: "Fira Code" , serif;
+    font-size: 40px;
+}
+.title-2{
+    width: 40%;
+    padding: 5% 5%;
+}
+
+/* section -3 */
+
+.section-3{
+    background: url(./images/serum.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 768px){
+    /* section - 1 */
+    .section-1{
+        background-position: center;
+    }
+    .title-1{
+        display: flex;
+        justify-content: center;
+        padding-top: 5% 5%;
+    }
+    .big-title-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 70px;
+        padding: 15% 10%;
+    }
+    .btn-1{
+        display: flex;
+        justify-content: center;
+        padding: 15% 15%;
+    }
+
+    /* section - 2 */
+
+    .section-2{
+        background-position: center;
+        height: 100%;
+    }
+    .title-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 5% 5%;
+    }
+    .title-2 h1{
+        font-size: 40px;
+    }
+    .title-2 p{
+        font-size: 20px;
+    }
+    .image-2 img:nth-child(1){
+        width: 300px;
+        height: auto;
+    }
+    .image-2 img:nth-child(2){
+        width: 300px;
+        height: auto;
+    }
+    .image-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5% 5%;
+        margin-top: 2%;
+        gap: 80px;
+    }
+}
