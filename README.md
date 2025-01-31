@@ -2,8 +2,8 @@
 
 **Aliprandi** This is a simple website for cosmetic products
 
-## 🚀 [View Live Website](https://Ulyk04.github.io/SPRIT)  
-https://ulyk04.github.io/S-S/
+## 🚀 [View Live Website]
+https://ulyk04.github.io/Aliprandi/
 
 ---
 
