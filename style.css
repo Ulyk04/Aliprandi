@@ -120,7 +120,180 @@ section{
     background-size: cover;
     background-position: center;
 }
+.title-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:7% 5%;
+}
+.title-3 h1,
+.title-3 img {
+    margin: 0; 
+    padding: 1% 1%;
+}
+.title-3 h1{
+    font-size: 70px;
+    color: #dcd5cf;
+}
+.title-3 img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
 
+/* section -4 */
+
+.section-4{
+    background-color: white;
+    height: 100vh;
+}
+.image-4{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -35%;
+    gap: 5%;
+    padding: 0 2%;
+}
+.title-4{
+    display: flex;
+    justify-content: center;
+    padding: 10% 10%;
+}
+.title-4 h1{
+    font-size: 500%;
+}
+.title-4 p{
+    font-size: 200%;
+    font-family: "Fira Code" , serif;
+    position: relative;
+    top: 30px;
+}
+.desc-4{
+    font-size: 350%;
+    font-family: "Fira Code" , serif;
+    width: 50%;
+    padding: 5% 7%;
+}
+
+/* section -5 */
+.section-5{
+    background-color: #906825;
+    height: 100vh;
+    margin-top: 30%;
+}
+.title-5{
+    display: flex;
+    justify-content: center;
+    padding: 5% 10%;
+}
+.title-5 h1{
+    font-size: 500%;
+}
+.title-5 p{
+    font-size: 200%;
+    font-family: "Fira Code" , serif;
+    position: relative;
+    top: 50px;
+}
+.desc-5{
+    font-size: 300%;
+    width: 40%;
+    padding: 10% 10%;
+}
+.image-5{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -18%;
+    padding: 0 15%;
+}
+
+/* section - 6 */
+
+.section-6{
+    background: url(./images/room2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title-6{
+    display: flex;
+    justify-content: center;
+    padding: 2% 10%;
+}
+.title-6 h1{
+    font-size: 500%;
+}
+.title-6 p{
+    font-size: 200%;
+    font-family: "Fira Code" , serif;
+    position: relative;
+    top: 50px;
+}
+.desc-6{
+    font-size: 300%;
+    width: 40%;
+    padding: 10% 5%;
+    font-family: "Fira Code" , serif;
+}
+
+/* footer */
+
+footer{
+    background: url(./images/yellowproduct.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    background-color: #dcd5cf;
+}
+.title-foot{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10% 5%;
+}
+.title-foot h1{
+    font-size: 700%;
+    font-family: "Fira Code" , serif;
+}
+.title-foot p{
+    font-family: "Meie Script" , serif;
+    font-size: 700%;
+}
+.contact{   
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: "Fira Code" , serif;
+    padding: 0 10%;
+    gap: 40px;
+}
+.contact h1{
+    font-size: 300%;
+}
+.contact p{
+    font-size: 200%;
+}
+.contact button{
+    width: 20%;
+    height: 50px;
+    background-color: #1b0a02;
+    color: #dcd5cf;
+    font-family: "Fira Code" , serif;
+    font-size: 120%;
+    cursor: pointer;
+}
+.image-foot{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30%;
+    padding: 0 5%;
+}
+.image-foot img{
+    width: 30%;
+    height: auto;
+    border: none;
+}
 @media(max-width: 768px){
     /* section - 1 */
     .section-1{
@@ -181,5 +354,144 @@ section{
         padding: 5% 5%;
         margin-top: 2%;
         gap: 80px;
+    }
+    /* section- 3 */
+
+    .title-3 img{
+        width: 90%;
+        height: auto;
+    }
+    .title-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10% 5%;
+    }
+    .title-3 h1{
+        font-size: 400%;
+    }
+
+    /* section -4 */
+
+    .title-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15% 5%;
+    }
+    .title-4 h1{
+        font-size: 400%;
+    }
+    .title-4 p{
+        font-size: 150%;
+    }
+    .desc-4{
+        font-size: 150%;
+        width: 70%;
+        padding: 5% 2%;
+    }
+    .image-4{
+        margin-top: 5%;
+        padding: 5% 5%;
+    }
+    .image-4 img{
+        width: 90%;
+        height: auto;
+        object-fit: cover;
+    }
+    /* section -5 */
+    .section-5{
+        padding: 10% 0;
+        margin-top:80%;
+    }
+    .title-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .title-5 h1{
+        font-size: 300%;
+    }
+    .title-5 p{
+        font-size: 200%;
+    }
+    .desc-5{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        padding: 20% 10%;
+        font-size: 200%;
+    }
+    .image-5 img{
+        width: 120%;
+        height: auto;
+        object-fit: cover;
+    }
+    .image-5{
+        display: flex;
+        justify-content: center;
+        padding: 10% 10%;
+    }
+    /* section - 6*/
+    .title-6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .title-6{
+        padding: 10% 10%;
+    }
+    .title-6 h1{
+        font-size: 300%;
+    }
+    .title-6 p{
+        font-size: 200%;
+    }
+    .desc-6{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        padding: 20% 10%;
+        font-size: 200%;
+        color: white;
+    }
+    /* footer*/
+    
+    footer{
+        background-size: contain;
+        background-position: top 100% center;
+    }
+    .title-foot{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 60%;
+        padding: 10% 5%;
+    }
+    .contact h1{
+        font-size: 150%;
+    }
+    .contact p{
+        font-size: 120%;
+    }
+    .contact{
+       display:flex ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact button{
+        width: 90%;
+    }
+    .image-foot{
+        display: flex;
+        justify-content: center;
+        padding: 10% 5%;
+        margin-top: 20%;
     }
 }
